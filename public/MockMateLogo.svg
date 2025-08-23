@@ -1,0 +1,20 @@
+<svg width="560" height="160" viewBox="0 0 280 80" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>
+    .title { font: bold 32px 'Segoe UI', sans-serif; fill: #1F2937; }
+    .bubble { fill: #ff0a0a; }
+    .spark { fill: #FACC15; }
+  </style>
+
+  <!-- Custom Logo Icon -->
+  <g transform="translate(10, 15)">
+    <!-- Speech bubble base -->
+    <path class="bubble" d="M10 0h30a10 10 0 0110 10v20a10 10 0 01-10 10H20l-10 10V10a10 10 0 0110-10z"/>
+    <!-- Lightbulb spark -->
+    <circle class="spark" cx="35" cy="10" r="4"/>
+    <circle class="spark" cx="40" cy="20" r="2"/>
+    <circle class="spark" cx="30" cy="20" r="2"/>
+  </g>
+
+  <!-- Brand Name -->
+  <text x="80" y="50" class="title">MockMate</text>
+</svg>
